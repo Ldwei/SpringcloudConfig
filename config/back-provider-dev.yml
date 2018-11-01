@@ -1,0 +1,22 @@
+server:
+  port: 8077
+
+spring:
+  application:
+    name: service-provider
+  datasource:
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1/my1803?useUnicode=true&characterEncoding=utf-8
+    username: root
+  profiles:
+    active:
+    - shiro
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8090/eureka/
+
+
+
