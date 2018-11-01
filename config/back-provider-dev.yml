@@ -13,10 +13,10 @@ spring:
     active:
     - shiro
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8090/eureka/
+#eureka:
+#  client:
+ #   serviceUrl:
+ #     defaultZone: http://localhost:8090/eureka/
 
 
 
