@@ -15,3 +15,6 @@ zuul:
     api-b:
       path: /api-b/**
       serviceId: service-comsumer
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
