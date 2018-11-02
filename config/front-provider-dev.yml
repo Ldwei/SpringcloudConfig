@@ -17,10 +17,10 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/my1803?useUnicode=true&characterEncoding=utf-8
     username: root
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8090/eureka/
+#eureka:
+ # client:
+   # serviceUrl:
+    #  defaultZone: http://localhost:8090/eureka/
 ribbon:
   ReadTimeout: 60000
   ConnectTimeout: 60000
